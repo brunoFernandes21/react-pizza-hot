@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* general css */
+
+body, ul, h1, h2, h3, p, button, a, div{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  background: rgb(0, 6, 123);
+  background: radial-gradient(circle, rgb(0, 35, 123) 0%, rgb(20, 21, 86) 100%);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 350px;
+  margin: 100px auto 40px;
+}
+
+button{
+  color: white;
+  padding: 10px 30px;
+  font-size: 1em;
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin: 40px auto 0;
+  cursor: pointer;
+  opacity: 0.7;
+}
