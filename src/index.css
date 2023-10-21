@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,8 +20,9 @@ body, ul, h1, h2, h3, p, button, a, div{
 }
 
 body{
-  background: rgb(0, 6, 123);
-  background: radial-gradient(circle, rgb(0, 35, 123) 0%, rgb(20, 21, 86) 100%);
+  /* background: rgb(0, 6, 123);
+  background: radial-gradient(circle, rgb(0, 35, 123) 0%, rgb(20, 21, 86) 100%); */
+  background: #fff;
   overflow: hidden;
 }
 
@@ -63,4 +65,14 @@ li span.active::before{
   position: relative;
   margin-right: 6px;
   display: inline-block;
+}
+
+/* BASE styles  */
+
+.base__items {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.base__items:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }

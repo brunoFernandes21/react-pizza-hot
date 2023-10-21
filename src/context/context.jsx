@@ -26,7 +26,6 @@ const AppProvider = ({ children }) => {
     setPizza({ ...pizza, toppings: newToppings });
   };
 
-  console.log(pizza);
 
   return (
     <AppContext.Provider value={{ pizza, addBase, addToppings }}>
