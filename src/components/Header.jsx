@@ -6,9 +6,9 @@ const Header = () => {
   let location = useLocation()
   return (
     <header className=" bg-white">
-      <div className="flex justify-center">
+      <div className="flex justify-center items-center">
         <Link to="/">
-          <h1 className="text-2xl font-bold text-blue-900 mt-2">Tropical Pizza</h1>
+          <h1 className="text-2xl font-bold text-blue-900 p-2">Tropical Pizza</h1>
         </Link>
       </div>
       <hr />
